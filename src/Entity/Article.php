@@ -42,7 +42,7 @@ class Article
        $this->title=$title;
     }
     public function getBody(){
-      return $this->$body;
+      return $this->body;
     }
 
     public function setBody($body){
